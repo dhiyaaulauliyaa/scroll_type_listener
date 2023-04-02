@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  scroll_type_listener:
+    path: ../
 
 dev_dependencies:
   flutter_test:
