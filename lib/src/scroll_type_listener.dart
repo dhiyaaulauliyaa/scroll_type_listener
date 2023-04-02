@@ -80,7 +80,7 @@ class _ScrollTypeListenerState extends State<ScrollTypeListener> {
         final difference = (_lastScrollDelta - scrollDelta).abs();
         _lastScrollDelta = notification.scrollDelta ?? 0;
 
-        if (difference < 10) {
+        if (difference < 1) {
           _scrollDeltaBuffer = 0;
           return false;
         }
