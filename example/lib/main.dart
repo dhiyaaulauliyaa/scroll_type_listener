@@ -37,6 +37,15 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
           ),
+          ListTile(
+            title: const Text('Detail Example'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<Widget>(
+                builder: (_) => const DetailExampleMenuPage(),
+              ),
+            ),
+          )
         ],
       ),
     );
